@@ -32,7 +32,7 @@ def log_data():
 
     print(f"Calculated full movement data and saved as: {file_name_full}")
 
-    return "200\n"
+    return json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
 
 
 if __name__ == '__main__':

@@ -10,7 +10,7 @@ from ev3dev2.button import Button
 import urequests
 import ujson
 
-IP_ADDRESS = "ENTER IP ADDRESS"
+IP_ADDRESS = "192.168.178.23"
 SERVER = "http://" + IP_ADDRESS + ":5000/log_ev3_standard"
 
 if IP_ADDRESS == "ENTER IP ADDRESS":
